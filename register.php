@@ -8,7 +8,7 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-md-9">
-		    <form action="index.html">
+		    <form action="app/handle_registration.php" method="post">
 		    	<div id="form-step-1">
 			        <div class="row">
 			            <div class="form-group col-lg-5">
@@ -26,8 +26,8 @@
 			        </div>
 			        <div class="row">
 			            <div class="form-group col-lg-5">
-			                <label for="player_birthday">Player's Birth Date</label>
-			                <input type="text" class="datepicker form-control" id="player_birthday" name="player_birthday">
+			                <label for="player_dob">Player's Birth Date</label>
+			                <input type="text" class="datepicker form-control" id="player_dob" name="player_dob">
 			            </div>
 			            <div class="form-group col-lg-2">
 			                <label>Player's Gender</label>
@@ -120,8 +120,8 @@
 			                <input type="text" class="form-control" id="doctor_name" class="doctor_name">
 			            </div>
 			            <div class="form-group col-lg-4">
-			                <label for="doctor_telephone">Telephone</label>
-			                <input type="text" class="form-control" id="doctor_telephone" name="doctor_telephone">
+			                <label for="doctor_phone">Telephone</label>
+			                <input type="text" class="form-control" id="doctor_phone" name="doctor_phone">
 			            </div>
 			        </div>
 			        <div class="row">
