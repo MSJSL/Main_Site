@@ -1,6 +1,6 @@
 <?php
 
-$db_link = mysqli_connect("db.msjsl.com", "msjsl_db", "JG*Wv23!kqV7#1kKmN", "msjsl_live");
+$db_link = mysqli_connect("db_host", "db_user", "db_pass", "db_name");
 
 if (!$db_link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
